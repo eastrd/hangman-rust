@@ -72,9 +72,9 @@ fn main() {
         }
 
         if life == 0 {
-            println!("[!!!!!] Game over, the word is >>>'{}'<<<", word);
+            println!("\n[!!!!!] Game over, the word is >>>'{}'<<<", word);
         } else {
-            println!("[!!!!!] WOW, Unbelievable, HOW TF DID YOU GUESS THAT?!");
+            println!("\n\n[!!!!!] WOW, Unbelievable, HOW TF DID YOU GUESS THAT?!");
         }
         println!("\n\nLet's play another round!");
     }
